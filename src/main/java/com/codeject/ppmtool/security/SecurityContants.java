@@ -7,6 +7,6 @@ public class SecurityContants {
 	public static final String SECRET = "SecretKetToGenerateJWTs";
 	public static final String TOKEN_PREFIX = "Bearer ";
 	public static final String HEADER_PREFIX = "Authorization";
-	public static final long EXPIRATION_TIME = 300_000; // 2 minutes
+	public static final long EXPIRATION_TIME = 86400000; // 24 hours
 
 }
